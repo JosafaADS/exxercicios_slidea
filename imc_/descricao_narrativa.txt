@@ -1,0 +1,18 @@
+####Programa calculo IMC##################
+
+//o programa inicia com a declaracao das 3 variaveis que compoe a formula para
+//o calculo do "IMC: imc = peso / (altura ao quadrado)"
+
+##############
+
+//criar entrada de dados para armazenar o valor de peso
+//criar entrada de dados para armazenar o valor de altura
+
+###############
+
+//Calcular o IMC usando os valores armazenados em "peso" e "altura", e a
+//formula imc = peso / (altura * altura) para obter o resultado.
+
+###############
+
+//imprime o "imc" na tela
