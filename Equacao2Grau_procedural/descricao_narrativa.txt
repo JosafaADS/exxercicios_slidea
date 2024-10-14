@@ -1,0 +1,42 @@
+####DESCRICAO NARRATIVA########
+####Sistema calcula 2 raizes de uma Equacao quadratica de 2 grau com uso da formula de Bhaskara##########
+
+
+//O sistema tem como inicio, com a declaracao das variaveis todas do tipo REAIS que irão conter,
+// os valores dos coeficientes a, b, c, 2 variaveis x para o calculo das raizes no final
+//2 variaveis deltas, que no fim somente a delta1 ira possuir o valor final de "delta,
+//pois sera demembrado em 2 partes o calculo a fim de  exibir passo a passo calculo do delta para determinar
+//se a equacao possui uma, duas ou nenhuma raiz, devendo calcular somente se tiver 2 raizes
+//na variavel raiz, ira tirar a raiz quadrada, do valor do calculo que determina,
+//quantidades de raizes armazenado em deltal no final!!!
+
+///exibir uma saudacao do programa "###SISTEMA CALCULA RAIZES DA EQUACAO DE 2º###"
+/// uma descricao da operacao a realizar: calcular equacao quadratica usando formula de Bhaskara: 
+###############################
+### ax elevado ao 2 + bx +c ###
+###############################
+
+//primeira entrada de dados: variavel "a" recebe o valor digitado no teclado referente coeficiente "a"
+//segunda entrada de dados:  variavel "b" recebe o valor digitado no teclado referente coeficiente "b"
+//terceira entrada de dados:  variavel "c" recebe o valor digitado no teclado referente coeficiente "c"
+
+//agora ja temos armazenados os valores(atributos) do tipo reais nas variaveis a, b, c
+//referente aos coeficientes a, b, c e devemos exibir na tela todos eles antes de calcular o Delta e determinar
+//quantas raizes possui a equacao.
+	
+############################################################
+//exibir passo a passo as operacoes desmembrando o calculo do delta em 2 partes
+//delta = (b elevado ao quadrado) - (4 * a * c);
+//passando a ser assim "delta1=(b elevado ao quadrado)" e "delta2=(4 * a * c)" e por fim delta1 recebe "delta1-delta2"
+//determinando assim o valor final do DELTA na formula de Bhaskara
+
+############################################################################
+//verificar quantas raízes há na equacao comparando o valor que esta atribuido em "delta1", se houver 2 raizes o programa calcula
+//as duas raizes, caso ou houver 1 ou nenhuma o programa se encerra.
+############################################################################
+//sabendo que tem 2 raizes realizar os calculos:
+##################################################
+###x1: (-b + raiz quadrada de delta1) / (2 * a)###
+###x2: (-b + raiz quadrada de delta1) / (2 * a)###
+##################################################
+ e exibir passo a passo a operacao assim como em calcula do delta
