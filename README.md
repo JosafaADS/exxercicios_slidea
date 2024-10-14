@@ -1,2 +1,3 @@
 # exxercicios_slidea
- exercicios de java
+ Tecnicas de Desenvolvimento de algoritmos
+ exercicios de java escritos na IDE Netbeans.
