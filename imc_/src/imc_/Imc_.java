@@ -27,11 +27,11 @@ public class Imc_ {
             {
                 System.out.println("abaixo do peso");//exibe msg abaixo do peso
             }
-            else if (imc < 25)//verifica se imc é menor que 25, se sim entao
+            else if (imc <= 25)//verifica se imc é menor que 25, se sim entao
             {
                 System.out.println("peso normal");//exibe msg peso normal
             }
-            else if (imc < 30)//verifica se imc é menor que 30, se sim entao
+            else if (imc <= 30)//verifica se imc é menor que 30, se sim entao
             {
                 System.out.println("Sobrepeso");//exibe msg sobrepeso
             }
